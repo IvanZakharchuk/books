@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78725D8E25C08C1E007BE924 /* RestApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78725D8D25C08C1E007BE924 /* RestApiService.swift */; };
+		78AA7BA825C364A00088B554 /* RestApiNetworkFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AA7BA725C364A00088B554 /* RestApiNetworkFetcher.swift */; };
+		78AA7BB625C404200088B554 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AA7BB525C404200088B554 /* Model.swift */; };
+		78C443F425953F9000B34935 /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C443F325953F9000B34935 /* BookTableViewCell.swift */; };
 		78CFF2652587C6DE000C8219 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CFF2642587C6DE000C8219 /* AppDelegate.swift */; };
 		78CFF2672587C6DE000C8219 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CFF2662587C6DE000C8219 /* SceneDelegate.swift */; };
-		78CFF2692587C6DE000C8219 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CFF2682587C6DE000C8219 /* ViewController.swift */; };
+		78CFF2692587C6DE000C8219 /* BooksApiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CFF2682587C6DE000C8219 /* BooksApiViewController.swift */; };
 		78CFF26C2587C6DE000C8219 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78CFF26A2587C6DE000C8219 /* Main.storyboard */; };
-		78CFF26F2587C6DE000C8219 /* RestApiBooks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78CFF26D2587C6DE000C8219 /* RestApiBooks.xcdatamodeld */; };
 		78CFF2712587C6DE000C8219 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78CFF2702587C6DE000C8219 /* Assets.xcassets */; };
 		78CFF2742587C6DE000C8219 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78CFF2722587C6DE000C8219 /* LaunchScreen.storyboard */; };
 		78CFF27F2587C6DE000C8219 /* RestApiBooksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CFF27E2587C6DE000C8219 /* RestApiBooksTests.swift */; };
@@ -36,12 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		78725D8D25C08C1E007BE924 /* RestApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestApiService.swift; sourceTree = "<group>"; };
+		78AA7BA725C364A00088B554 /* RestApiNetworkFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestApiNetworkFetcher.swift; sourceTree = "<group>"; };
+		78AA7BB525C404200088B554 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		78C443F325953F9000B34935 /* BookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
 		78CFF2612587C6DE000C8219 /* RestApiBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestApiBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78CFF2642587C6DE000C8219 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78CFF2662587C6DE000C8219 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		78CFF2682587C6DE000C8219 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		78CFF2682587C6DE000C8219 /* BooksApiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksApiViewController.swift; sourceTree = "<group>"; };
 		78CFF26B2587C6DE000C8219 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		78CFF26E2587C6DE000C8219 /* RestApiBooks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RestApiBooks.xcdatamodel; sourceTree = "<group>"; };
 		78CFF2702587C6DE000C8219 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78CFF2732587C6DE000C8219 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78CFF2752587C6DE000C8219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -103,12 +109,15 @@
 			children = (
 				78CFF2642587C6DE000C8219 /* AppDelegate.swift */,
 				78CFF2662587C6DE000C8219 /* SceneDelegate.swift */,
-				78CFF2682587C6DE000C8219 /* ViewController.swift */,
+				78CFF2682587C6DE000C8219 /* BooksApiViewController.swift */,
+				78AA7BB525C404200088B554 /* Model.swift */,
+				78C443F325953F9000B34935 /* BookTableViewCell.swift */,
+				78725D8D25C08C1E007BE924 /* RestApiService.swift */,
+				78AA7BA725C364A00088B554 /* RestApiNetworkFetcher.swift */,
 				78CFF26A2587C6DE000C8219 /* Main.storyboard */,
 				78CFF2702587C6DE000C8219 /* Assets.xcassets */,
 				78CFF2722587C6DE000C8219 /* LaunchScreen.storyboard */,
 				78CFF2752587C6DE000C8219 /* Info.plist */,
-				78CFF26D2587C6DE000C8219 /* RestApiBooks.xcdatamodeld */,
 			);
 			path = RestApiBooks;
 			sourceTree = "<group>";
@@ -261,10 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78CFF2692587C6DE000C8219 /* ViewController.swift in Sources */,
+				78CFF2692587C6DE000C8219 /* BooksApiViewController.swift in Sources */,
+				78AA7BA825C364A00088B554 /* RestApiNetworkFetcher.swift in Sources */,
+				78725D8E25C08C1E007BE924 /* RestApiService.swift in Sources */,
 				78CFF2652587C6DE000C8219 /* AppDelegate.swift in Sources */,
 				78CFF2672587C6DE000C8219 /* SceneDelegate.swift in Sources */,
-				78CFF26F2587C6DE000C8219 /* RestApiBooks.xcdatamodeld in Sources */,
+				78C443F425953F9000B34935 /* BookTableViewCell.swift in Sources */,
+				78AA7BB625C404200088B554 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,19 +609,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		78CFF26D2587C6DE000C8219 /* RestApiBooks.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				78CFF26E2587C6DE000C8219 /* RestApiBooks.xcdatamodel */,
-			);
-			currentVersion = 78CFF26E2587C6DE000C8219 /* RestApiBooks.xcdatamodel */;
-			path = RestApiBooks.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 78CFF2592587C6DE000C8219 /* Project object */;
 }
